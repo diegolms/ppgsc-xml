@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<agenda>
+	<contato id="01">
+		<nome>Maria</nome>
+		<endereco>Rua A</endereco>
+		<telefone>111111111</telefone>
+		<email>maria@c.com</email>
+	</contato>
+	<contato id="02">
+		<nome>José</nome>
+		<endereco>Rua B</endereco>
+		<telefone>222222222</telefone>
+		<email>jose@c.com</email>
+	</contato>
+	<contato id="03">
+		<nome>Chico</nome>
+		<endereco>Rua C</endereco>
+		<telefone>3333333333</telefone>
+		<email>chico@c.com</email>
+	</contato>
+</agenda>

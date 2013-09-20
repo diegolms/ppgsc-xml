@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<storedHU xmlns:aml="http://www.atlasti.com/hu/ns2003" lastSaved="2013-08-16T11:03:21 " creator="ATLAS.ti" method="AML (ATLAS Markup Language)" version="7.0.77" mode="complete">
+
+<hermUnit name="CU1 Resolve Crisis" au="Super" cDate="2012-02-28T14:04:25" mDate="2013-08-16T10:35:05" lastPD="1" prot="private" />
+<coAuthors>
+</coAuthors>
+
+<dataSources size="1" >
+ <dataSource id="doc_1" loc="@MF:C:\Documents and Settings\Sr.Franki\Desktop\Artigo - GT\AOM_Case_Study.pdf!LocalManaged!C:\Documents_and_Settings\Sr.Franki\Desktop\Artigo_-_GT\AOM_Case_Study.pdf!,E4B141F09EEC584AB0B7347794FBE445,0,3495712932,1352813, !!!!!!!" mime="text/pdf" renderer="" />
+</dataSources>
+
+
+<primDocs size="1" >
+ <primDoc name="AOM_Case_Study.pdf" id="pd_1" loc="doc_1" au="Super" cDate="2012-02-28T14:04:53" mDate="2012-03-22T15:00:53" qIndex="32" >
+ <quotations size="25" >
+  <q name="Resolve Crisis" id="q1_1" au="Super" cDate="2012-02-28T14:06:22" mDate="2012-02-28T14:06:22" loc="text:v03:16:2303#92.8694#243.563553#101.106537#235.481842:16:2316#160.141327#241.136658#164.158264#235.326431:!"/>
+  <q name="For each external resource req.." id="q1_6" au="Super" cDate="2012-02-28T14:14:15" mDate="2012-02-28T14:14:15" loc="text:v03:17:142#100.368568#703.475769#106.194031#696.253967:17:244#548.858643#697.34491#550.06958#696.144958:!"/>
+  <q name="Resource noti?es System of arr.." id="q1_7" au="Super" cDate="2012-02-28T14:14:36" mDate="2012-02-28T14:14:36" loc="text:v03:17:250#100.107071#689.827698#106.652534#682.704041:17:304#336.690918#683.794922#337.901825#682.594971:!"/>
+  <q name="Resource executes the mission .." id="q1_8" au="Super" cDate="2012-02-28T14:14:48" mDate="2012-02-28T14:14:48" loc="text:v03:17:310#100.107079#676.278687#106.652542#669.155029:17:345#263.130676#676.529602#265.923401#667.235046:!"/>
+  <q name="Resource noti?es System of dep.." id="q1_9" au="Super" cDate="2012-02-28T14:15:06" mDate="2012-02-28T14:15:06" loc="text:v03:17:352#100.107086#662.729675#106.65255#655.606018:17:410#363.287292#656.696899#364.498199#655.496948:!"/>
+  <q name="In parallel to steps 6-8, Coor.." id="q1_10" au="Super" cDate="2012-02-28T14:15:44" mDate="2012-02-28T14:15:44" loc="text:v03:17:416#100.433998#649.278809#103.674004#642.057007:17:504#483.403625#643.147888#484.614532#641.947937:!"/>
+  <q name="0. In parallel to steps 6-8, S.." id="q1_11" au="Super" cDate="2012-02-28T14:16:07" mDate="2012-02-28T14:16:08" loc="text:v03:17:508#94.3903503#635.882568#99.3212585#628.36615:17:609#525.460876#635.958923#528.046387#628.507996:!"/>
+  <q name="11. Resource submits the ?nal .." id="q1_12" au="Super" cDate="2012-02-28T14:16:22" mDate="2012-02-28T14:16:22" loc="text:v03:17:615#89.8848877#622.332581#92.972168#614.958008:17:669#331.190613#616.048889#332.40152#614.848938:!"/>
+  <q name="Coordinator closes the ?le for.." id="q1_14" au="Super" cDate="2012-02-28T14:18:59" mDate="2012-02-28T14:18:59" loc="text:v03:17:774#92.2389755#595.125427#99.035347#587.674561:17:826#312.427246#588.950867#313.638184#587.750916:!"/>
+  <q name="CaptureWitness Report" id="q1_15" au="Super" cDate="2012-02-28T14:20:03" mDate="2012-02-28T14:20:03" loc="text:v03:18:7#93.1444092#731.613037#100.771828#723.13678:18:27#213.234406#730.883789#216.964417#723.220459:!"/>
+  <q name="Assign Internal Resource" id="q1_16" au="Super" cDate="2012-02-28T14:20:20" mDate="2012-02-28T14:20:20" loc="text:v03:18:2022#92.6661835#244.478027#100.795723#236.228943:18:2045#215.996033#241.883759#220.79007#236.073532:!"/>
+  <q name="Request External Resource" id="q1_17" au="Super" cDate="2012-02-28T14:20:34" mDate="2012-02-28T14:20:34" loc="text:v03:19:653#92.8694458#523.363708#101.106583#515.281982:19:677#225.942764#520.936768#230.736801#515.126587:!"/>
+  <q name="Execute Mission" id="q1_18" au="Super" cDate="2012-02-28T14:20:46" mDate="2012-02-28T14:20:46" loc="text:v03:19:1578#92.7498932#266.576691#100.221893#258.494965:19:1592#169.514236#264.14978#175.707031#258.494965:!"/>
+  <q name="1 System requests an external .." id="q1_20" au="Super" cDate="2012-02-29T13:16:53" mDate="2012-02-29T13:16:53" loc="text:v03:17:1052#102.91037#497.555542#105.99765#490.181:17:1149#510.08136#491.271912#511.292297#490.071899:!"/>
+  <q name="4.2.10 AuthenticateUser" id="q1_22" au="Super" cDate="2012-02-29T13:26:41" mDate="2012-02-29T13:26:41" loc="text:v03:21:899#56.9201508#416.409088#62.3717194#408.183899:21:921#182.617126#413.838715#187.458984#408.183899:!"/>
+  <q name="Execute Remove Obstacle Missio.." id="q1_23" au="Super" cDate="2012-02-29T13:27:08" mDate="2012-02-29T13:27:08" loc="text:v03:21:519#92.7498932#551.10968#100.221893#543.027954:21:549#260.911713#548.682739#267.104492#543.027954:!"/>
+  <q name="Availability" id="q1_24" au="Super" cDate="2012-03-22T14:58:14" mDate="2012-03-22T14:58:14" loc="text:v03:8:377#86.0655975#617.379089#94.1951294#609.130005:8:388#138.644577#614.641357#144.191788#606.691162:!"/>
+  <q name="Persistence" id="q1_25" au="Super" cDate="2012-03-22T14:58:54" mDate="2012-03-22T14:58:54" loc="text:v03:8:995#86.1492844#417.959747#93.1311188#409.878021:8:1005#137.807709#415.532837#142.601746#409.722595:!"/>
+  <q name="Real-time" id="q1_26" au="Super" cDate="2012-03-22T14:59:07" mDate="2012-03-22T14:59:07" loc="text:v03:8:2182#86.268837#156.937653#94.5059662#148.855942:8:2190#130.742187#154.510757#135.536224#148.700531:!"/>
+  <q name="Security" id="q1_27" au="Super" cDate="2012-03-22T14:59:16" mDate="2012-03-22T14:59:17" loc="text:v03:9:270#86.3764343#658.89801#92.0910187#650.40979:9:277#122.672424#656.136353#128.219635#648.186157:!"/>
+  <q name="Mobility" id="q1_28" au="Super" cDate="2012-03-22T14:59:22" mDate="2012-03-22T14:59:22" loc="text:v03:9:796#86.1253738#513.25177#96.9687424#505.170044:9:803#124.011406#510.681396#129.558624#502.731171:!"/>
+  <q name="Safety" id="q1_29" au="Super" cDate="2012-03-22T14:59:41" mDate="2012-03-22T14:59:41" loc="text:v03:9:1996#86.3764343#144.326996#92.0910187#135.838806:9:2001#112.04425#141.565353#117.591461#133.615143:!"/>
+  <q name="Multi-Access" id="q1_30" au="Super" cDate="2012-03-22T15:00:21" mDate="2012-03-22T15:00:21" loc="text:v03:9:1606#86.1253738#265.680725#96.9687424#257.598999:9:1617#148.005493#263.253815#152.02243#257.443573:!"/>
+  <q name="Accuracy" id="q1_31" au="Super" cDate="2012-03-22T15:00:45" mDate="2012-03-22T15:00:45" loc="text:v03:10:907#86.0655975#477.75708#94.1951294#469.507996:10:914#128.638062#475.019348#134.185272#467.069122:!"/>
+  <q name="Adaptability" id="q1_32" au="Super" cDate="2012-03-22T15:00:53" mDate="2012-03-22T15:00:53" loc="text:v03:10:327#86.0655975#640.643066#94.1951294#632.393982:10:338#144.610229#637.905334#150.15744#629.955139:!"/>
+ </quotations>
+ </primDoc>
+</primDocs>
+<codes size="32" >
+ <code name="Accuracy" id="co_2" au="Super" cDate="2012-03-22T15:00:45" mDate="2012-05-02T15:32:21" color="" cCount="1" qCount="1" />
+ <code name="Adaptability" id="co_3" au="Super" cDate="2012-03-22T15:00:53" mDate="2012-05-02T15:32:41" color="" cCount="1" qCount="1" />
+ <code name="Availability" id="co_4" au="Super" cDate="2012-03-22T14:58:14" mDate="2012-05-02T15:32:48" color="" cCount="1" qCount="1" />
+ <code name="Captures Witness Report" id="co_5" au="Super" cDate="2012-02-28T14:06:43" mDate="2012-02-29T13:19:52" color="" cCount="1" qCount="0" />
+ <code name="Closes the File for Crisis Resolution" id="co_6" au="Super" cDate="2012-02-28T14:18:59" mDate="2012-02-28T14:19:20" color="" cCount="1" qCount="1" />
+ <code name="Crisis location needs a helicopter transport mission" id="co_7" au="Super" cDate="2012-02-29T13:18:04" mDate="2012-02-29T13:31:52" color="" cCount="2" qCount="0" />
+ <code name="If internal resource is not available, requests an external resource" id="co_8" au="Super" cDate="2012-02-29T13:16:53" mDate="2012-02-29T13:30:25" color="" cCount="2" qCount="1" />
+ <code name="If is not logged in, authenticates with system" id="co_9" au="Super" cDate="2012-02-29T13:15:19" mDate="2012-02-29T13:31:25" color="" cCount="2" qCount="0" />
+ <code name="Informs relevant changes" id="co_10" au="Super" cDate="2012-02-28T14:16:07" mDate="2012-02-28T14:17:19" color="" cCount="1" qCount="1" />
+ <code name="Mobility" id="co_11" au="Super" cDate="2012-03-22T14:59:22" mDate="2012-05-02T15:32:57" color="" cCount="1" qCount="1" />
+ <code name="Multi-Access" id="co_12" au="Super" cDate="2012-03-22T15:00:21" mDate="2012-05-02T15:33:02" color="" cCount="1" qCount="1" />
+ <code name="Persistence" id="co_13" au="Super" cDate="2012-03-22T14:58:54" mDate="2012-05-02T15:33:09" color="" cCount="1" qCount="1" />
+ <code name="Real-Time" id="co_14" au="Super" cDate="2012-03-22T14:59:07" mDate="2012-05-02T15:33:18" color="" cCount="1" qCount="1" />
+ <code name="Receives Information about the Crisis" id="co_15" au="Super" cDate="2012-02-28T14:18:34" mDate="2012-02-28T14:33:49" color="" cCount="1" qCount="0" />
+ <code name="Resource executes the mission" id="co_16" au="Super" cDate="2012-02-28T14:14:48" mDate="2012-02-29T13:20:47" color="" cCount="3" qCount="1" />
+ <code name="Resource notifies System of arrival" id="co_17" au="Super" cDate="2012-02-28T14:14:36" mDate="2012-02-28T14:17:31" color="" cCount="1" qCount="1" />
+ <code name="Resource notifies System oh departure" id="co_18" au="Super" cDate="2012-02-28T14:15:06" mDate="2012-02-28T14:17:37" color="" cCount="1" qCount="1" />
+ <code name="Safety" id="co_19" au="Super" cDate="2012-03-22T14:59:41" mDate="2012-05-02T15:33:30" color="" cCount="1" qCount="1" />
+ <code name="Security" id="co_20" au="Super" cDate="2012-03-22T14:59:16" mDate="2012-05-02T15:33:36" color="" cCount="1" qCount="1" />
+ <code name="Select Mission(s)" id="co_21" au="Super" cDate="2012-02-28T14:07:51" mDate="2012-02-28T14:29:42" color="" cCount="9" qCount="0" />
+ <code name="Submits final report to System" id="co_22" au="Super" cDate="2012-02-28T14:16:22" mDate="2012-02-28T14:17:44" color="" cCount="1" qCount="1" />
+ <code name="System assigns an internal resource" id="co_23" au="Super" cDate="2012-02-28T14:13:54" mDate="2012-02-29T13:30:25" color="" cCount="3" qCount="0" />
+ <code name="System Recommend the Missions" id="co_24" au="Super" cDate="2012-02-28T14:07:16" mDate="2012-02-28T14:29:21" color="" cCount="1" qCount="0" />
+ <code name="System requests an external resource" id="co_25" au="Super" cDate="2012-02-28T14:14:15" mDate="2012-02-29T13:28:46" color="" cCount="2" qCount="1" />
+ <code name="UC1: Resolve Crisis" id="co_26" au="Super" cDate="2012-02-28T14:06:22" mDate="2012-06-15T17:15:26" color="" cCount="19" qCount="1" />
+ <code name="UC10: Authenticate User" id="co_27" au="Super" cDate="2012-02-29T13:26:41" mDate="2012-06-15T17:14:14" color="" cCount="2" qCount="1" />
+ <code name="UC2: Capture Witness Report" id="co_28" au="Super" cDate="2012-02-28T14:20:03" mDate="2012-06-15T17:15:28" color="" cCount="1" qCount="1" />
+ <code name="UC3: Assign Internal Resource" id="co_29" au="Super" cDate="2012-02-28T14:20:20" mDate="2012-06-15T17:14:29" color="" cCount="2" qCount="1" />
+ <code name="UC4: Request External Resource" id="co_30" au="Super" cDate="2012-02-28T14:20:34" mDate="2012-06-15T17:14:39" color="" cCount="3" qCount="1" />
+ <code name="UC5: Execute Mission" id="co_31" au="Super" cDate="2012-02-28T14:20:46" mDate="2012-06-15T17:14:49" color="" cCount="2" qCount="1" />
+ <code name="UC9: Execute Remove Obstacle Mission" id="co_32" au="Super" cDate="2012-02-29T13:27:08" mDate="2012-06-15T17:14:57" color="" cCount="2" qCount="1" />
+ <code name="Update mission status" id="co_33" au="Super" cDate="2012-02-28T14:15:44" mDate="2012-02-28T14:18:04" color="" cCount="1" qCount="1" />
+</codes>
+<superCodes size="0" >
+</superCodes>
+<memos size="0" >
+</memos>
+<families>
+<codeFamilies size="0" >
+</codeFamilies>
+<superCodeFamilies size="0" >
+</superCodeFamilies>
+<memoFamilies size="0" >
+</memoFamilies>
+<superMemoFamilies size="0" >
+</superMemoFamilies>
+<primDocFamilies size="0" >
+</primDocFamilies>
+<superPrimDocFamilies size="0" >
+</superPrimDocFamilies>
+</families>
+<netViews size="1" >
+ <netView name="UC1: Resolve Crisis" id="nw_1" au="Super" size="16" cDate="2012-06-15T17:18:41" >
+  <node obj="co_2" x="1045" y="149"/>
+  <node obj="co_4" x="487" y="151"/>
+  <node obj="co_11" x="571" y="112"/>
+  <node obj="co_3" x="655" y="88"/>
+  <node obj="co_12" x="757" y="71"/>
+  <node obj="co_14" x="862" y="83"/>
+  <node obj="co_20" x="959" y="104"/>
+  <node obj="co_13" x="468" y="203"/>
+  <node obj="co_31" x="460" y="469"/>
+  <node obj="co_32" x="540" y="516"/>
+  <node obj="co_19" x="1094" y="201"/>
+  <node obj="co_29" x="790" y="520"/>
+  <node obj="co_27" x="389" y="419"/>
+  <node obj="co_30" x="990" y="397"/>
+  <node obj="co_28" x="894" y="464"/>
+  <node obj="co_26" x="740" y="293"/>
+ </netView>
+</netViews>
+<links>
+<objectSegmentLinks>
+  <codings size="25" >
+   <iLink obj="co_2" qRef="q1_31" />
+   <iLink obj="co_3" qRef="q1_32" />
+   <iLink obj="co_4" qRef="q1_24" />
+   <iLink obj="co_6" qRef="q1_14" />
+   <iLink obj="co_8" qRef="q1_20" />
+   <iLink obj="co_10" qRef="q1_11" />
+   <iLink obj="co_11" qRef="q1_28" />
+   <iLink obj="co_12" qRef="q1_30" />
+   <iLink obj="co_13" qRef="q1_25" />
+   <iLink obj="co_14" qRef="q1_26" />
+   <iLink obj="co_16" qRef="q1_8" />
+   <iLink obj="co_17" qRef="q1_7" />
+   <iLink obj="co_18" qRef="q1_9" />
+   <iLink obj="co_19" qRef="q1_29" />
+   <iLink obj="co_20" qRef="q1_27" />
+   <iLink obj="co_22" qRef="q1_12" />
+   <iLink obj="co_25" qRef="q1_6" />
+   <iLink obj="co_26" qRef="q1_1" />
+   <iLink obj="co_27" qRef="q1_22" />
+   <iLink obj="co_28" qRef="q1_15" />
+   <iLink obj="co_29" qRef="q1_16" />
+   <iLink obj="co_30" qRef="q1_17" />
+   <iLink obj="co_31" qRef="q1_18" />
+   <iLink obj="co_32" qRef="q1_23" />
+   <iLink obj="co_33" qRef="q1_10" />
+  </codings>
+  <memoings size="0" >
+  </memoings>
+</objectSegmentLinks>
+ <codeLinkProtos size="2" >
+  <codeLinkProto id="BTP" label1="[]" label2="G" formalProp="transitive" layout="U" descr="is part of" au="GUEST" >
+    <comment type="text/html" size="95"><p>The part-of relation links objects, not concepts of different abstractional level (as does ISA)</p></comment>
+  </codeLinkProto>
+  <codeLinkProto id="ISIN" label1="isin" label2="L" formalProp="asymmetric" layout="U" descr="is in" au="GUEST" />
+ </codeLinkProtos>
+ <codeLinks size="36" >
+  <codeLink rel="BTP" source="co_21" target="co_26" au="Super" cDate="2012-02-28T14:12:03" />
+  <codeLink rel="BTP" source="co_24" target="co_26" au="Super" cDate="2012-02-28T14:12:09" />
+  <codeLink rel="BTP" source="co_10" target="co_21" au="Super" cDate="2012-02-28T14:17:19" />
+  <codeLink rel="BTP" source="co_16" target="co_21" au="Super" cDate="2012-02-28T14:17:26" />
+  <codeLink rel="BTP" source="co_17" target="co_21" au="Super" cDate="2012-02-28T14:17:31" />
+  <codeLink rel="BTP" source="co_18" target="co_21" au="Super" cDate="2012-02-28T14:17:37" />
+  <codeLink rel="BTP" source="co_22" target="co_21" au="Super" cDate="2012-02-28T14:17:44" />
+  <codeLink rel="BTP" source="co_23" target="co_21" au="Super" cDate="2012-02-28T14:17:52" />
+  <codeLink rel="BTP" source="co_25" target="co_21" au="Super" cDate="2012-02-28T14:17:58" />
+  <codeLink rel="BTP" source="co_33" target="co_21" au="Super" cDate="2012-02-28T14:18:04" />
+  <codeLink rel="BTP" source="co_6" target="co_26" au="Super" cDate="2012-02-28T14:19:20" />
+  <codeLink rel="BTP" source="co_15" target="co_26" au="Super" cDate="2012-02-28T14:19:30" />
+  <codeLink rel="ISIN" source="co_23" target="co_29" au="Super" cDate="2012-02-28T14:23:40" />
+  <codeLink rel="ISIN" source="co_25" target="co_30" au="Super" cDate="2012-02-28T14:23:55" />
+  <codeLink rel="ISIN" source="co_16" target="co_31" au="Super" cDate="2012-02-28T14:24:20" />
+  <codeLink rel="BTP" source="co_9" target="co_5" au="Super" cDate="2012-02-29T13:19:52" />
+  <codeLink rel="BTP" source="co_7" target="co_16" au="Super" cDate="2012-02-29T13:20:47" />
+  <codeLink rel="ISIN" source="co_9" target="co_27" au="Super" cDate="2012-02-29T13:27:38" />
+  <codeLink rel="ISIN" source="co_8" target="co_30" au="Super" cDate="2012-02-29T13:27:56" />
+  <codeLink rel="ISIN" source="co_7" target="co_32" au="Super" cDate="2012-02-29T13:28:07" />
+  <codeLink rel="BTP" source="co_8" target="co_23" au="Super" cDate="2012-02-29T13:30:25" />
+  <codeLink rel="BTP" source="co_2" target="co_26" au="Super" cDate="2012-05-02T15:32:21" />
+  <codeLink rel="BTP" source="co_3" target="co_26" au="Super" cDate="2012-05-02T15:32:41" />
+  <codeLink rel="BTP" source="co_4" target="co_26" au="Super" cDate="2012-05-02T15:32:48" />
+  <codeLink rel="BTP" source="co_11" target="co_26" au="Super" cDate="2012-05-02T15:32:57" />
+  <codeLink rel="BTP" source="co_12" target="co_26" au="Super" cDate="2012-05-02T15:33:02" />
+  <codeLink rel="BTP" source="co_13" target="co_26" au="Super" cDate="2012-05-02T15:33:09" />
+  <codeLink rel="BTP" source="co_14" target="co_26" au="Super" cDate="2012-05-02T15:33:18" />
+  <codeLink rel="BTP" source="co_19" target="co_26" au="Super" cDate="2012-05-02T15:33:30" />
+  <codeLink rel="BTP" source="co_20" target="co_26" au="Super" cDate="2012-05-02T15:33:36" />
+  <codeLink rel="ISIN" source="co_26" target="co_27" au="Super" cDate="2012-06-15T17:14:14" />
+  <codeLink rel="ISIN" source="co_26" target="co_28" au="Super" cDate="2012-06-15T17:14:22" />
+  <codeLink rel="ISIN" source="co_26" target="co_29" au="Super" cDate="2012-06-15T17:14:29" />
+  <codeLink rel="ISIN" source="co_26" target="co_30" au="Super" cDate="2012-06-15T17:14:39" />
+  <codeLink rel="ISIN" source="co_26" target="co_31" au="Super" cDate="2012-06-15T17:14:49" />
+  <codeLink rel="ISIN" source="co_26" target="co_32" au="Super" cDate="2012-06-15T17:14:57" />
+ </codeLinks>
+ <hyperLinkProtos size="0" >
+ </hyperLinkProtos>
+ <hyperLinks size="0" >
+ </hyperLinks>
+ <memoMemoLinks size="0" >
+ </memoMemoLinks>
+ <memoCodeLinks size="0" >
+ </memoCodeLinks>
+ <codeMemoLinks size="0" >
+ </codeMemoLinks>
+</links>
+<settings bookMark ="" pd="" q="" code="" memo="" qFilter="" qSort="nummer" cFilter="" cFam="" cSort="name" mFilter="" mFam="" mSort="name" />
+</storedHU>
