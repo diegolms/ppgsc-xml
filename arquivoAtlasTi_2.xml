@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<storedHU xmlns:aml="http://www.atlasti.com/hu/ns2003" lastSaved="2013-09-09T12:04:07 " creator="ATLAS.ti" method="AML (ATLAS Markup Language)" version="7.1.3" mode="complete">
+
+<hermUnit name="CU7 Execute Rescue Mission" au="Super" cDate="2012-03-01T12:14:25" mDate="2013-08-16T10:46:55" lastPD="1" prot="private" />
+<coAuthors>
+</coAuthors>
+
+<dataSources size="1" >
+ <dataSource id="doc_1" loc="@MF:C:\Documents and Settings\Sr.Franki\Desktop\Artigo - GT\AOM_Case_Study.pdf!LocalManaged!C:\Documents_and_Settings\Sr.Franki\Desktop\Artigo_-_GT\AOM_Case_Study.pdf!,E4B141F09EEC584AB0B7347794FBE445,0,3495712932,1352813, !!!!!!!" mime="text/pdf" />
+</dataSources>
+
+
+<primDocs size="1" >
+ <primDoc name="AOM_Case_Study.pdf" id="pd_1" loc="doc_1" au="Super" cDate="2012-03-01T15:09:26" mDate="2013-08-16T10:46:55" qIndex="18" >
+ <quotations size="9" >
+  <q name="4.2.7 Execute Rescue Mission" id="q1_1" au="Super" cDate="2012-03-01T15:10:27" mDate="2012-03-01T15:10:27" loc="text:v03:20:1396#56.9201584#352.413086#62.371727#344.187897:20:1423#208.356674#349.842712#214.549469#344.187897:1:!">
+   <content size="35"><p>4.2.7 Execute Rescue Mission</p></content>
+  </q>
+  <q name="Availability" id="q1_11" au="Super" cDate="2012-03-23T14:56:14" mDate="2012-03-23T14:56:14" loc="text:v03:8:374#86.0655975#617.379089#94.1951294#609.130005:8:385#138.644577#614.641357#144.191788#606.691162:1:!">
+   <content size="19"><p>Availability</p></content>
+  </q>
+  <q name="Reliability" id="q1_12" au="Super" cDate="2012-03-23T14:56:29" mDate="2012-03-23T14:56:29" loc="text:v03:8:747#86.268837#500.648743#94.5059662#492.567017:8:757#133.312561#498.078369#138.859772#490.128143:1:!">
+   <content size="18"><p>Reliability</p></content>
+  </q>
+  <q name="Persistence" id="q1_13" au="Super" cDate="2012-03-23T14:56:37" mDate="2012-03-23T14:56:37" loc="text:v03:8:992#86.1492844#417.959747#93.1311188#409.878021:8:1002#137.807709#415.532837#142.601746#409.722595:1:!">
+   <content size="18"><p>Persistence</p></content>
+  </q>
+  <q name="Real-time" id="q1_14" au="Super" cDate="2012-03-23T14:56:51" mDate="2012-03-23T14:56:51" loc="text:v03:8:2167#86.268837#156.937653#94.5059662#148.855942:8:2175#130.742187#154.510757#135.536224#148.700531:1:!">
+   <content size="16"><p>Real-time</p></content>
+  </q>
+  <q name="Security" id="q1_15" au="Super" cDate="2012-03-23T14:57:10" mDate="2012-03-23T14:57:10" loc="text:v03:9:270#86.3764343#658.89801#92.0910187#650.40979:9:277#122.672424#656.136353#128.219635#648.186157:1:!">
+   <content size="15"><p>Security</p></content>
+  </q>
+  <q name="Mobility" id="q1_16" au="Super" cDate="2012-03-23T14:57:19" mDate="2012-03-23T14:57:19" loc="text:v03:9:793#86.1253738#513.25177#96.9687424#505.170044:9:800#124.011406#510.681396#129.558624#502.731171:1:!">
+   <content size="15"><p>Mobility</p></content>
+  </q>
+  <q name="Safety" id="q1_17" au="Super" cDate="2012-03-23T14:57:32" mDate="2012-03-23T14:57:32" loc="text:v03:9:1993#86.3764343#144.326996#92.0910187#135.838806:9:1998#112.04425#141.565353#117.591461#133.615143:1:!">
+   <content size="13"><p>Safety</p></content>
+  </q>
+  <q name="Accuracy" id="q1_18" au="Super" cDate="2012-03-23T14:57:49" mDate="2012-03-23T14:57:49" loc="text:v03:10:904#86.0655975#477.75708#94.1951294#469.507996:10:911#128.638062#475.019348#134.185272#467.069122:1:!">
+   <content size="15"><p>Accuracy</p></content>
+  </q>
+ </quotations>
+ </primDoc>
+</primDocs>
+<codes size="16" >
+ <code name="Accuracy" id="co_2" au="Super" cDate="2012-03-23T14:57:49" mDate="2012-05-03T13:07:43" color="" cCount="1" qCount="1" />
+ <code name="Availability" id="co_3" au="Super" cDate="2012-03-23T14:56:14" mDate="2012-03-23T15:04:14" color="" cCount="1" qCount="1" />
+ <code name="Informs System that mission is complete" id="co_4" au="Super" cDate="2012-03-01T15:20:09" mDate="2013-08-16T10:46:55" color="" cCount="0" qCount="0" />
+ <code name="Informs victim's identity to System" id="co_5" au="Super" cDate="2012-03-01T15:11:58" mDate="2013-08-16T10:46:38" color="" cCount="0" qCount="0" />
+ <code name="Mobility" id="co_6" au="Super" cDate="2012-03-23T14:57:19" mDate="2012-03-23T15:04:18" color="" cCount="1" qCount="1" />
+ <code name="Notifies System that he has dropped off the victim at the hospital" id="co_7" au="Super" cDate="2012-03-01T15:19:46" mDate="2013-08-16T10:46:51" color="" cCount="0" qCount="0" />
+ <code name="Notifies System that is leaving the crisis site" id="co_8" au="Super" cDate="2012-03-01T15:19:27" mDate="2013-08-16T10:46:48" color="" cCount="0" qCount="0" />
+ <code name="Persistence" id="co_9" au="Super" cDate="2012-03-23T14:56:37" mDate="2012-03-23T15:04:23" color="" cCount="1" qCount="1" />
+ <code name="Real-Time" id="co_10" au="Super" cDate="2012-03-23T14:56:51" mDate="2012-03-23T15:04:29" color="" cCount="1" qCount="1" />
+ <code name="Reliability" id="co_11" au="Super" cDate="2012-03-23T14:56:29" mDate="2012-03-23T15:04:36" color="" cCount="1" qCount="1" />
+ <code name="Safety" id="co_12" au="Super" cDate="2012-03-23T14:57:32" mDate="2012-03-23T15:04:41" color="" cCount="1" qCount="1" />
+ <code name="Security" id="co_13" au="Super" cDate="2012-03-23T14:57:10" mDate="2012-03-23T15:04:48" color="" cCount="1" qCount="1" />
+ <code name="System instructs to bring victim to most appropriate Hospital" id="co_14" au="Super" cDate="2012-03-01T15:19:07" mDate="2013-08-16T10:46:45" color="" cCount="0" qCount="0" />
+ <code name="System requests victim's medical history from all Hospital Resource Systems" id="co_15" au="Super" cDate="2012-03-01T15:18:00" mDate="2013-08-16T10:46:41" color="" cCount="0" qCount="0" />
+ <code name="Transmits injury information of victim to System" id="co_16" au="Super" cDate="2012-03-01T15:11:40" mDate="2013-08-16T10:46:33" color="" cCount="0" qCount="0" />
+ <code name="UC7: Execute Rescue Mission" id="co_17" au="Super" cDate="2012-03-01T15:10:27" mDate="2013-08-16T10:44:15" color="FFFFFF" cCount="8" qCount="1" />
+</codes>
+<superCodes size="0" >
+</superCodes>
+<memos size="0" >
+</memos>
+<families>
+<codeFamilies size="0" >
+</codeFamilies>
+<superCodeFamilies size="0" >
+</superCodeFamilies>
+<memoFamilies size="0" >
+</memoFamilies>
+<superMemoFamilies size="0" >
+</superMemoFamilies>
+<primDocFamilies size="0" >
+</primDocFamilies>
+<superPrimDocFamilies size="0" >
+</superPrimDocFamilies>
+</families>
+<netViews size="2" >
+ <netView name="UC7 Execute Rescue Mission" id="nw_1" au="Super" size="9" cDate="2013-08-16T10:45:52" >
+   <node obj="co_6" x="578" y="51"/>
+  <node obj="co_13" x="845" y="173"/>
+  <node obj="co_9" x="34" y="263"/>
+  <node obj="co_12" x="388" y="50"/>
+  <node obj="co_3" x="881" y="252"/>
+  <node obj="co_11" x="205" y="75"/>
+  <node obj="co_2" x="72" y="135"/>
+  <node obj="co_10" x="743" y="92"/>
+  <node obj="co_17" x="445" y="254"/>
+ </netView>
+ <netView name="UC7: Execute Rescue Mission" id="nw_2" au="Super" size="16" cDate="2012-03-01T15:27:21" >
+   <node obj="co_17" x="499" y="38"/>
+  <node obj="co_5" x="66" y="184"/>
+  <node obj="co_15" x="265" y="240"/>
+  <node obj="co_16" x="482" y="181"/>
+  <node obj="co_4" x="1114" y="192"/>
+  <node obj="co_7" x="1028" y="260"/>
+  <node obj="co_8" x="786" y="284"/>
+  <node obj="co_14" x="653" y="226"/>
+  <node obj="co_2" x="260" y="10"/>
+  <node obj="co_3" x="285" y="-54"/>
+  <node obj="co_6" x="353" y="-107"/>
+  <node obj="co_9" x="465" y="-117"/>
+  <node obj="co_10" x="576" y="-114"/>
+  <node obj="co_11" x="682" y="-99"/>
+  <node obj="co_12" x="775" y="-73"/>
+  <node obj="co_13" x="796" y="-20"/>
+ </netView>
+</netViews>
+<links>
+<objectSegmentLinks>
+  <codings size="9" >
+   <iLink obj="co_2" qRef="q1_18" />
+   <iLink obj="co_3" qRef="q1_11" />
+   <iLink obj="co_6" qRef="q1_16" />
+   <iLink obj="co_9" qRef="q1_13" />
+   <iLink obj="co_10" qRef="q1_14" />
+   <iLink obj="co_11" qRef="q1_12" />
+   <iLink obj="co_12" qRef="q1_17" />
+   <iLink obj="co_13" qRef="q1_15" />
+   <iLink obj="co_17" qRef="q1_1" />
+  </codings>
+  <memoings size="0" >
+  </memoings>
+</objectSegmentLinks>
+ <codeLinkProtos size="1" >
+  <codeLinkProto id="BTP" label1="[]" label2="G" formalProp="transitive" layout="U" descr="is part of" au="GUEST" >
+    <comment type="text/html" size="95"><p>The part-of relation links objects, not concepts of different abstractional level (as does ISA)</p></comment>
+  </codeLinkProto>
+ </codeLinkProtos>
+ <codeLinks size="8" >
+  <codeLink rel="BTP" source="co_2" target="co_17" au="Super" cDate="2012-03-23T15:04:09" />
+  <codeLink rel="BTP" source="co_3" target="co_17" au="Super" cDate="2012-03-23T15:04:14" />
+  <codeLink rel="BTP" source="co_6" target="co_17" au="Super" cDate="2012-03-23T15:04:18" />
+  <codeLink rel="BTP" source="co_9" target="co_17" au="Super" cDate="2012-03-23T15:04:23" />
+  <codeLink rel="BTP" source="co_10" target="co_17" au="Super" cDate="2012-03-23T15:04:29" />
+  <codeLink rel="BTP" source="co_11" target="co_17" au="Super" cDate="2012-03-23T15:04:36" />
+  <codeLink rel="BTP" source="co_12" target="co_17" au="Super" cDate="2012-03-23T15:04:41" />
+  <codeLink rel="BTP" source="co_13" target="co_17" au="Super" cDate="2012-03-23T15:04:48" />
+ </codeLinks>
+ <hyperLinkProtos size="0" >
+ </hyperLinkProtos>
+ <hyperLinks size="0" >
+ </hyperLinks>
+ <memoMemoLinks size="0" >
+ </memoMemoLinks>
+ <memoCodeLinks size="0" >
+ </memoCodeLinks>
+ <codeMemoLinks size="0" >
+ </codeMemoLinks>
+</links>
+<settings bookMark ="" pd="" q="" code="" memo="" qFilter="" qSort="nummer" cFilter="" cFam="" cSort="name" mFilter="" mFam="" mSort="name" />
+</storedHU>

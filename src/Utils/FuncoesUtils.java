@@ -10,6 +10,7 @@ import javax.swing.JOptionPane;
 /**
  *
  * @author Diego
+ * @author Lucas
  */
 public class FuncoesUtils {
     
