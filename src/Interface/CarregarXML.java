@@ -6,6 +6,9 @@ package Interface;
 
 import java.awt.Dimension;
 import java.awt.Toolkit;
+import static javax.swing.JFrame.EXIT_ON_CLOSE;
+import javax.swing.UIManager;
+import javax.swing.UnsupportedLookAndFeelException;
 
 /**
  *
@@ -16,8 +19,7 @@ public class CarregarXML extends javax.swing.JFrame {
 
     private CarregarXMLController controller = new CarregarXMLController(this);
     
-    private CarregarXMLController getController()
-    {
+    private CarregarXMLController getController(){
         return this.controller;
     }
     
@@ -25,6 +27,20 @@ public class CarregarXML extends javax.swing.JFrame {
      * Creates new form CarregarXML
      */
     public CarregarXML() {
+         super.setTitle("GT4CCI Tool");
+        try {  
+            UIManager.setLookAndFeel("com.sun.java.swing.plaf.windows.WindowsLookAndFeel");  
+              
+        } catch (IllegalAccessException e) {  
+            // TODO  
+        } catch (ClassNotFoundException e) {  
+            // TODO  
+        } catch (InstantiationException e) {  
+            // TODO  
+        } catch (UnsupportedLookAndFeelException e) {  
+            // TODO  
+        }  
+        setDefaultCloseOperation(EXIT_ON_CLOSE); 
         initComponents();
         panelTabela.setVisible(false);
         Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
@@ -59,37 +75,37 @@ public class CarregarXML extends javax.swing.JFrame {
 
         panelBotoes.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
 
-        btAbrirArquivo.setText("Abrir Arquivo");
+        btAbrirArquivo.setText("Open file");
         btAbrirArquivo.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btAbrirArquivoActionPerformed(evt);
             }
         });
 
-        btCarregarXML.setText("Carregar");
+        btCarregarXML.setText("Loading file");
         btCarregarXML.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btCarregarXMLActionPerformed(evt);
             }
         });
 
-        cbListarInteresses.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Interesses" }));
+        cbListarInteresses.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Concerns" }));
         cbListarInteresses.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 cbListarInteressesActionPerformed(evt);
             }
         });
 
-        btMostrarNaTabela.setText("Mostrar na Tabela");
+        btMostrarNaTabela.setText("Show table");
         btMostrarNaTabela.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btMostrarNaTabelaActionPerformed(evt);
             }
         });
 
-        jLabel1.setText("Lista de interesses");
+        jLabel1.setText("List of concern");
 
-        jToggleButton1.setText("Zerar Campos");
+        jToggleButton1.setText("Clear fields");
         jToggleButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jToggleButton1ActionPerformed(evt);
@@ -122,7 +138,7 @@ public class CarregarXML extends javax.swing.JFrame {
                             .addGroup(panelBotoesLayout.createSequentialGroup()
                                 .addComponent(btMostrarNaTabela, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(18, 18, 18)
-                                .addComponent(jToggleButton1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                                .addComponent(jToggleButton1, javax.swing.GroupLayout.DEFAULT_SIZE, 185, Short.MAX_VALUE))
                             .addGroup(javax.swing.GroupLayout.Alignment.LEADING, panelBotoesLayout.createSequentialGroup()
                                 .addComponent(jLabel1)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)

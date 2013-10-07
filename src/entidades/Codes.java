@@ -10,8 +10,8 @@ package entidades;
  * @author Lucas
  */
 public class Codes {
-    String name;
-    String id;
+    private String name;
+    private String id;
 
     
     public Codes(){

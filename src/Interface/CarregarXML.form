@@ -73,7 +73,7 @@
                               <Group type="102" attributes="0">
                                   <Component id="btMostrarNaTabela" min="-2" pref="158" max="-2" attributes="0"/>
                                   <EmptySpace type="separate" max="-2" attributes="0"/>
-                                  <Component id="jToggleButton1" max="32767" attributes="0"/>
+                                  <Component id="jToggleButton1" pref="185" max="32767" attributes="0"/>
                               </Group>
                               <Group type="102" alignment="0" attributes="0">
                                   <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
@@ -123,7 +123,7 @@
         </Component>
         <Component class="javax.swing.JButton" name="btAbrirArquivo">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Abrir Arquivo"/>
+            <Property name="text" type="java.lang.String" value="Open file"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btAbrirArquivoActionPerformed"/>
@@ -134,7 +134,7 @@
         </Component>
         <Component class="javax.swing.JButton" name="btCarregarXML">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Carregar"/>
+            <Property name="text" type="java.lang.String" value="Loading file"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btCarregarXMLActionPerformed"/>
@@ -146,7 +146,7 @@
         <Component class="javax.swing.JComboBox" name="cbListarInteresses">
           <Properties>
             <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
-              <Connection code="new javax.swing.DefaultComboBoxModel(new String[] { &quot;Interesses&quot; })" type="code"/>
+              <Connection code="new javax.swing.DefaultComboBoxModel(new String[] { &quot;Concerns&quot; })" type="code"/>
             </Property>
           </Properties>
           <Events>
@@ -159,7 +159,7 @@
         </Component>
         <Component class="javax.swing.JButton" name="btMostrarNaTabela">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Mostrar na Tabela"/>
+            <Property name="text" type="java.lang.String" value="Show table"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btMostrarNaTabelaActionPerformed"/>
@@ -170,12 +170,12 @@
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel1">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Lista de interesses"/>
+            <Property name="text" type="java.lang.String" value="List of concern"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JToggleButton" name="jToggleButton1">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Zerar Campos"/>
+            <Property name="text" type="java.lang.String" value="Clear fields"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jToggleButton1ActionPerformed"/>

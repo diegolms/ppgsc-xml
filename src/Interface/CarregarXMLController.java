@@ -18,7 +18,6 @@ import javax.xml.parsers.ParserConfigurationException;
 import entidades.CodeLinks;
 import entidades.Codes;
 import entidades.Resposta;
-import javax.swing.JOptionPane;
 import org.w3c.dom.Attr;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
@@ -36,7 +35,7 @@ public class CarregarXMLController {
     private boolean carregouArquivo;
     private static String interesse_name;
     private static String interesse_id;
-    private final String[] colunas = {"Interesse", "Espalhamento","Entrelaçamento","Transversalidade"};
+    private final String[] colunas = {"Concern", "Scattered","Tangled","Crosscutting Concern"};
    
     private String espalhado;
     private String entrelacado;
@@ -77,11 +76,10 @@ public class CarregarXMLController {
     }
     
     protected void carregarXML(){
-        System.out.println("Teste 1");
         carregouArquivo = false;
         String tfArquivo = getTela().tfArquivo.getText();
         if(tfArquivo.isEmpty()){
-            FuncoesUtils.mostrarMensagemErro(tela, "Erro", "Nenhum arquivo selecionado");
+            FuncoesUtils.mostrarMensagemErro(tela, "Error!", "No file selected!");
             return;
         }
         carregarListas(tfArquivo);
@@ -89,7 +87,6 @@ public class CarregarXMLController {
     } 
     
     private void carregarListas(String arquivo){
-        System.out.println("Teste 2");
         
         try{
             lista_codeLinks = new ArrayList<>();
@@ -130,22 +127,21 @@ public class CarregarXMLController {
             carregouArquivo = true;
             
         }catch(NullPointerException n){
-            FuncoesUtils.mostrarMensagemErro(getTela(), "Erro", "Este não é um arquivo XML Válido para esta operação");
+            FuncoesUtils.mostrarMensagemErro(getTela(), "Error", "This is not a valid XML file for this operation!");
         } catch (ParserConfigurationException e) {
-            FuncoesUtils.mostrarMensagemErro(getTela(), "Erro", "O parser não foi configurado corretamente.");
+            FuncoesUtils.mostrarMensagemErro(getTela(), "Error", "The parser is not configured correctly!");
         } catch (SAXException e) {
-            FuncoesUtils.mostrarMensagemErro(getTela(), "Erro", "Problema ao fazer o parse do arquivo.");
+            FuncoesUtils.mostrarMensagemErro(getTela(), "Error", "Problem to parse the file!");
         } catch (IOException e) {
-            FuncoesUtils.mostrarMensagemErro(getTela(), "Erro", "O arquivo não pode ser lido.");
+            FuncoesUtils.mostrarMensagemErro(getTela(), "Error", "The file can not be read!");
         }
         
     }
     
     protected void carregarTabela(String interesse){
-       System.out.println("Teste 3");
        procurarID(interesse);
        if(!carregouArquivo){
-            FuncoesUtils.mostrarMensagem(tela, "Atenção", "Arquivo XML não carregado");
+            FuncoesUtils.mostrarMensagem(tela, "Caution!", "XML file not loaded!");
             return;
         } 
          
@@ -159,7 +155,7 @@ public class CarregarXMLController {
         try {
             j.runReport(getTela().tabela, System.getProperty("user.dir"), "TestPdf");
         } catch (Exception e) {
-            System.out.println("Erro na Impessão! " + e.getMessage());
+            System.out.println("Error in printing! " + e.getMessage());
         }
     }
     
@@ -248,7 +244,6 @@ public class CarregarXMLController {
     }
     
     private void setarTodasAsLigacoes(ArrayList<Codes> lista_codes, List<CodeLinks> code_links){
-        System.out.println("Teste 4");
         forneceA = new HashMap<String,List>();
         recebeDe = new HashMap<String,List>();
         for(CodeLinks codigoDaVez: code_links){
@@ -274,7 +269,6 @@ public class CarregarXMLController {
     }
     
     private String verificarTransversalidade(List<CodeLinks> code_links, ArrayList<Codes> lista_codes){
-        System.out.println("Teste 5");
         int cont_alvo = 0;
         int cont_fonte = 0;
         int aux = code_links.size();
@@ -294,11 +288,9 @@ public class CarregarXMLController {
         }
         
         if(cont_alvo >= 2 && cont_fonte >=2){
-            System.out.println("O interesse, de codigo "+ interesse_id + " é transversal.");
-            return "Sim";
+            return "Yes";
         }else{
-            System.out.println("O interesse, de codigo "+ interesse_id + " não é transversal.");
-            return "Não";
+            return "No";
         }
     }
     
@@ -390,13 +382,13 @@ public class CarregarXMLController {
         public String getColumnName(int c) {
             switch (c) {
                 case 0:
-                    return "Interesse";
+                    return "Concern";
                 case 1:
-                    return "Espalhamento";
+                    return "Scattered";
                 case 2:
-                    return "Entrelaçamento";
+                    return "Tangled";
                 case 3:
-                    return "Transversalidade";
+                    return "Crosscutting Concern";
             }
             return super.getColumnName(c);
         }

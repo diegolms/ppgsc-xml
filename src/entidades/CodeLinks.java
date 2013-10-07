@@ -10,9 +10,9 @@ package entidades;
  * @author Lucas
  */
 public class CodeLinks {
-    String rel;
-    String fonte;
-    String alvo;
+    private String rel;
+    private String fonte;
+    private String alvo;
     
     
     public CodeLinks(){
