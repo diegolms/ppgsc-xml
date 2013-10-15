@@ -66,6 +66,10 @@ public class CarregarXMLController {
     ArrayList<Codes> lista_codes;
     ArrayList<CodeLinks> lista_codeLinks;
     ArrayList<String> lista_nomes;
+    private int tamanhoListaAux;
+    private boolean chamouTodos;
+    private List<Integer> listaTamanhoLinha;
+    private List<Resposta> resposta;
     
     public CarregarXMLController(CarregarXML tela){
 	this.tela = tela;        
@@ -89,7 +93,7 @@ public class CarregarXMLController {
     private void carregarListas(String arquivo){
         
         try{
-            lista_codeLinks = new ArrayList<>();
+            
             lista_codes = new ArrayList<>();            
             lista_nomes = new ArrayList<>();
             
@@ -177,27 +181,60 @@ public class CarregarXMLController {
     }
     
     public void preencherComboBox(){
+       getTela().cbListarInteresses.removeAllItems();
+       getTela().cbListarInteresses.addItem("All");
        for(int i=0; i<lista_nomes.size();i++){
            getTela().cbListarInteresses.addItem(lista_nomes.get(i).toString());
            
        }
-       getTela().cbListarInteresses.setSelectedIndex(1);
+       getTela().cbListarInteresses.setSelectedIndex(0);
         
     }
     public void procurarID(String interesse){
         interesse_name = interesse;
-        for (int i=0; i<lista_sub_tag_code.getLength(); i++){  
-            sub_tag_code = (Element) lista_sub_tag_code.item(i);
-            Attr name = sub_tag_code.getAttributeNode("name");
-            Attr id = sub_tag_code.getAttributeNode("id");
-            //procura o id do interesse selecionado
-            Codes auxCodes = new Codes(id.getNodeValue(), name.getNodeValue());
-                if (auxCodes.getName().equals(interesse)){
-                    interesse_id = auxCodes.getId();
-                }        
+        tamanhoListaAux = 0;
+        chamouTodos = true;
+        listaTamanhoLinha = new LinkedList();
+        lista_codeLinks = new ArrayList<>();
+        resposta = new LinkedList<Resposta>();
+        if(interesse_name.equalsIgnoreCase("all")){
+            tamanhoListaAux = lista_nomes.size();   
+            for(int i=0; i<tamanhoListaAux; i++){
+                interesse_name = lista_nomes.get(i);
+                for (int j=0; j<lista_sub_tag_code.getLength(); j++){  
+                    sub_tag_code = (Element) lista_sub_tag_code.item(j);
+                    Attr name = sub_tag_code.getAttributeNode("name");
+                    Attr id = sub_tag_code.getAttributeNode("id");
+                    //procura o id do interesse selecionado
+                    Codes auxCodes = new Codes(id.getNodeValue(), name.getNodeValue());
+                        if (auxCodes.getName().equals(interesse_name)){
+                            interesse_id = auxCodes.getId();
+                        }        
+                }
+                getInterreseRelevantes();
+                chamarMetodos();
+            }
+            chamouTodos = false;
+            
+           
         }
-       getInterreseRelevantes();
-       chamarMetodos();
+        else{
+            for (int i=0; i<lista_sub_tag_code.getLength(); i++){  
+                sub_tag_code = (Element) lista_sub_tag_code.item(i);
+                Attr name = sub_tag_code.getAttributeNode("name");
+                Attr id = sub_tag_code.getAttributeNode("id");
+                //procura o id do interesse selecionado
+                Codes auxCodes = new Codes(id.getNodeValue(), name.getNodeValue());
+                    if (auxCodes.getName().equals(interesse_name)){
+                        interesse_id = auxCodes.getId();
+                    }        
+            }        
+        }
+        
+        getInterreseRelevantes();
+        chamarMetodos();
+        
+        
     }
     
     //Metodo para pegar os interesses que tem ligação com o interesse principal
@@ -226,7 +263,7 @@ public class CarregarXMLController {
             setarTodasAsLigacoes(lista_codes, lista_codeLinks);
             //zerarCampos();
             String resposta = verificarTransversalidade(lista_codeLinks, lista_codes);        
-            criarChamarTabela(lista_codeLinks, lista_codes, resposta);        
+            criarChamarTabela(lista_codeLinks, lista_codes, resposta, chamouTodos);        
             carregouArquivo = true;
     }
     
@@ -300,11 +337,11 @@ public class CarregarXMLController {
      * @resp_transv = é a resposta dizendo se o interesse é transversla ou não
      */
     private void criarChamarTabela(List<CodeLinks> code_links,
-            List<Codes> lista_codes, String resp_transv){
+            List<Codes> lista_codes, String resp_transv, boolean chamouTodos){
             
             entrelacado = "<html>";
             espalhado = "<html>";
-            ArrayList<Resposta> resposta = new ArrayList<>();
+            
             Resposta r = new Resposta();
             for(int i = 0; i < code_links.size() ; i++){
                 if(code_links.get(i).getRel().equals("BTP") && 
@@ -332,16 +369,31 @@ public class CarregarXMLController {
             String[][] tupla = {
             {interesse_name,espalhado,entrelacado,resp_transv}};
             
-            r.setInteresse_name(interesse_name);
-            r.setEntrelacado(entrelacado);
-            r.setEspalhado(espalhado);
-            r.setResp(resp_transv);
+            if(chamouTodos){
+                r.setInteresse_name(interesse_name);
+                r.setEntrelacado(entrelacado);
+                r.setEspalhado(espalhado);
+                r.setResp(resp_transv);            
+                resposta.add(r);
+            }
+            
+            if(tamanhoListaAux == 0){
+                chamouTodos = false;
+            }
             
             int tamEntrelacado = entrelacado.length();
             int tamEspalhado = espalhado.length();
+            int tamanhoFinal = tamEntrelacado > tamEspalhado ? tamEntrelacado : tamEspalhado;
+            listaTamanhoLinha.add(tamanhoFinal);
             
-            getTela().tabela.setModel(new ModeloTabela(r));
-            getTela().tabela.setRowHeight(tamEntrelacado > tamEspalhado ? tamEntrelacado : tamEspalhado);
+            if(!chamouTodos){
+                getTela().tabela.setModel(new ModeloTabela(resposta));
+                for(int i=0; i<listaTamanhoLinha.size(); i++){
+                    getTela().tabela.setRowHeight(i, listaTamanhoLinha.get(i));
+                    
+                }
+                
+            }
             
             
                 
@@ -366,8 +418,10 @@ public class CarregarXMLController {
         interesse_id = "";
         interesse_name = "";
         getTela().cbListarInteresses.removeAllItems();
+        getTela().cbListarInteresses.addItem("Concerns");
         getTela().panelTabela.setVisible(false);
         getTela().btImprimir.setEnabled(false);
+        getTela().tfArquivo.setText("");
     }
     
     
@@ -377,6 +431,10 @@ public class CarregarXMLController {
 
         ModeloTabela(Resposta r) {
             resp.add(r);
+        }
+        
+        ModeloTabela(List<Resposta> resp){
+            this.resp = resp;
         }
 
         public String getColumnName(int c) {
@@ -406,15 +464,15 @@ public class CarregarXMLController {
             
             switch (col) {
                 case 0:
-                    return resp.get(0).getInteresse_name();
+                    return resp.get(row).getInteresse_name();
                 case 1:
-                    return resp.get(0).getEspalhado();
+                    return resp.get(row).getEspalhado();
                 case 2:
-                    return resp.get(0).getEntrelacado();
+                    return resp.get(row).getEntrelacado();
                 case 3:
-                    return resp.get(0).getResp();
+                    return resp.get(row).getResp();
             }
-            return 0;
+            return row;
         }
     }
     
